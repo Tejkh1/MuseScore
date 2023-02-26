@@ -88,7 +88,6 @@ private:
 
     bool m_quiting = false;
 
-    async::Channel<bool> m_fullScreenChannel;
     async::Channel<actions::ActionCodeList> m_actionsReceiveAvailableChanged;
 };
 }
